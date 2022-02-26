@@ -1,0 +1,18 @@
+<head>
+<title>to do list</title>
+</head>
+<body>
+<h2>TO DO LIST</h2>
+  <input type="button" value="Add" id="addb" onclick="addTask()">
+  <input type="text" id="in" placeholder="enter task">
+  <hr>
+  <ul id="tasks">
+    <li>
+      <input type="button" onclick="markDone(this.parentnode)" value="&#x2713">
+      <input type="button" onclick="remove(this.parentnode)"value="&#x2715">
+    </li></ul>
+  <hr>
+  <div id="divab"></div>
+  <input type="button" onclick="about()" value="About">
+  <input type="button" onclick="clearab()"
+value="Clear">
